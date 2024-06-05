@@ -6,6 +6,7 @@ export interface Persona {
   name?: string
   prompt?: string
   isDefault?: boolean
+  createTm?:string 
 }
 
 export interface Chat {

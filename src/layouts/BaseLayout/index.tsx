@@ -31,7 +31,7 @@ const AppLayout = (props: AppLayoutProps) => {
         <Layout>
           <HeaderBar className={styles.header}>
             <div className={styles.menuWrapper}>
-              <MainMenu theme="dark" mode="horizontal" />
+              <MainMenu theme="light" mode="horizontal" />
             </div>
           </HeaderBar>
           <Content className={styles.main}>

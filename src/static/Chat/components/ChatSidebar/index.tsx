@@ -142,7 +142,7 @@ const ChatSidebar = (props: ChatSidebarProps) => {
             >
               <List.Item.Meta
                 className={styles.listMete}
-                avatar={<Avatar size={40} src={item.persona?.avatar} />}
+                avatar={<Avatar size={40} src={item.persona?.avatar || "https://it230609teststr.blob.core.windows.net/itchatbot230619essentials/avatar.png" } />}
                 title={
                   <>
                     <span>{item.persona?.name}</span>
@@ -169,7 +169,7 @@ const ChatSidebar = (props: ChatSidebarProps) => {
                     </div>
                   </>
                 }
-                description={item.persona?.prompt}
+                description={item.persona?.createTm}
               />
             </List.Item>
           )}

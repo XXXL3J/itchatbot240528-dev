@@ -22,11 +22,11 @@ const HeaderBar = (props: HeaderBarProps) => {
 
   return (
     <>
-      <Header className={cs(styles.header, className)}>
+      <Header className={cs(styles.header, className)}> 
         <div className={styles.logoBar}>
           <Link href="/">
-            <img alt="logo" src="https://it230609teststr.blob.core.windows.net/itchatbot230619essentials/logo192.png" />
-            <h1>UNNC chatBOT</h1>
+            <img alt="logo" src="https://it230609teststr.blob.core.windows.net/itchatbot230619essentials/unilogo.png" />
+            <h1>Microsoft Azure AI</h1>
           </Link>
         </div>
         {children}
